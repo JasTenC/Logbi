@@ -1,0 +1,46 @@
+.container{
+    font-family: Roboto, Arial;
+}
+
+.first_row{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.click{
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 50px;
+}
+.msg{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.click{
+    margin-top: 20px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color:white;
+    background-color: #d868a0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.20s;
+}
+
+button:hover{
+    background-color: #d14189;
+}
+button:active{
+    background-color: #832856;
+}

@@ -1,0 +1,34 @@
+.header{
+    height: 60px;
+    background-color: #FF9BCD;
+    display:flex;
+    flex-direction: row;
+    border-bottom: 2px   solid;
+    border-color: #FFBC85;
+    position:fixed;
+    top:0;
+    left:0;
+    right:1px;    
+}
+
+.left{
+display:flex;
+align-items: center;
+}
+.memories{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.right{
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 40px;
+}
